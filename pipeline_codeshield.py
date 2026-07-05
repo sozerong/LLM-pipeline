@@ -1,7 +1,7 @@
 import asyncio
 from typing import Optional, Dict, Any
 from pydantic import BaseModel, Field
-from llamafirewall_code_scanner import (
+from commons.llamafirewall_code_scanner import (
     extract_code_blocks,
     CodeShieldScanner,
     ReportFormatter,
